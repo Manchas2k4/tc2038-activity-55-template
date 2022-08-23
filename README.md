@@ -45,8 +45,8 @@ g++ -std=c++11 main.cpp -o app
 ```
 Posteriormente, ejecuta tu programa. Para realizar las pruebas, puedes usar las siguientes líneas de código.
 ```
-./app > mysolution.txt
-diff mysolution.txt solution.txt
+./app > mysolutionX.txt
+diff mysolutionX.txt ouputX.txt
 ```
 Si el segundo comando no tiene ninguna salida, los resultados que obtuviste son los esperados.
 
